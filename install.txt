@@ -1,0 +1,8 @@
+curl -L https://get.rvm.io | bash -s stable –ruby
+rvm install ruby-2.3.0
+rvm use ruby-2.3.0 --default
+ruby -v
+sudo gem install rails
+
+Create Ruby on Rails application
+rails new blog
