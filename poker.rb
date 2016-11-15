@@ -182,7 +182,7 @@ end
 
 class PokerGame
 
-	# Constant : {card number => int value}
+    # Constant : {card number => int value}
     VALUE_MAP = { 
     				"2"=>2, 
     				"3"=>3, 
