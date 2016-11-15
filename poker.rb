@@ -18,6 +18,9 @@
 # Straight Flush: All cards are consecutive values of same suit.
 # Royal Flush: Ten, Jack, Queen, King, Ace, in same suit.
 #
+# Authour: ay701@nyu.edu
+# Created: 2016-11-14 
+# Updated: 2016-11-15 
 ############################################################
 
 require 'open-uri'
