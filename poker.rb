@@ -25,7 +25,7 @@ require 'open-uri'
 class Player
 
     def initialize(hand)
-		@royal_flush = ['T','J','Q','K','A']
+	@royal_flush = ['T','J','Q','K','A']
         @cards = hand.split(" ")
         @levels = { 
         			"Royal Flush"=>0, # level as key, max as value
@@ -71,7 +71,7 @@ class Player
             # puts sorted_cards.join(" ")
         end
 
-        #Calculate Royal Flush
+        # Calculate Royal Flush
         if @royal_flush.length==0 and 
         	@card_suits["T"]==@card_suits["J"] and
         	@card_suits["J"]==@card_suits["Q"] and
@@ -80,7 +80,7 @@ class Player
         	@levels["Royal Flush"] = 1 
     	end
 
-    	#Variables for all rules
+    	# Variables for all rules
         straight_flush_max = pair_max = flush_max = max_ = last = sorted_cards[0]
         is_straight_flush = is_flush = true
         pair_cnt = 0
